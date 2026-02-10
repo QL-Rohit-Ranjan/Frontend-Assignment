@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+
+<body>
+    <form action="basic-tags.html">
+        <table border="1">
+            <caption>Registration Form</caption>
+            <tr>
+                <th> <label for="full_name">Full Name</label></th>
+                <td>
+                    <input id="full_name" name="full_name" type="text" placeholder="Pali Jugran" required>
+                </td>
+            </tr>
+
+            <tr>
+                <th> <label for="email">Email</label></th>
+                <td>
+                    <input id="email" name="email" type="email" placeholder="pali.jugran@quokkalabs.com" required>
+                </td>
+            </tr>
+
+            <tr>
+                <th><label for="age">Age</label></th>
+                <td>
+                    <input id="age" name="age" type="number" min="18" max="60">
+                </td>
+            </tr>
+
+            <tr>
+                <th> <label for="password">Password</label></th>
+                <td>
+                    <input id="password" name="password" type="password" maxlength="10">
+                </td>
+            </tr>
+
+            <tr>
+                <th><label>Gender</label></th>
+                <td>
+                    <input type="radio" id="male" name="gender" value="male" required>
+                    <label for="male">Male</label>
+
+                    <input type="radio" id="female" name="gender" value="female" required>
+                    <label for="female">Female</label>
+                </td>
+            </tr>
+
+            <tr>
+                <th> <label>Skills</label></th>
+                <td>
+                    <input type="checkbox" id="skill_1" name="skills" value="mongodb">
+                    <label for="skill_1">MongoDB</label>
+
+                    <input type="checkbox" id="skill_2" name="skills" value="express">
+                    <label for="skill_2">Express</label>
+
+                    <input type="checkbox" id="skill_3" name="skills" value="react">
+                    <label for="skill_3">React</label>
+
+                    <input type="checkbox" id="skill_4" name="skills" value="nodejs">
+                    <label for="skill_4">Node.js</label>
+                </td>
+            </tr>
+
+            <tr>
+                <th> <label for="dob">Date of Birth</label></th>
+                <td>
+                    <input id="dob" name="dob" type="date">
+                </td>
+            </tr>
+
+            <tr>
+                <th> <label for="phone">Phone</label></th>
+                <td>
+                    <input id="phone" name="phone" type="tel" placeholder="9546453543">
+                </td>
+            </tr>
+
+            <tr>
+                <th> <label for="country">Country</label></th>
+                <td>
+                    <select id="country" name="country">
+                        <option value="">--Please choose an option--</option>
+                        <option value="india">India</option>
+                        <option value="bhutan">Bhutan</option>
+                        <option value="nepal">Nepal</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2">
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset">
+                </td>
+            </tr>
+
+        </table>
+    </form>
+
+</body>
+
+</html>
