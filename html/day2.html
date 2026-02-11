@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <main>
+        <h1>Form</h1>
+        <form action="/submit" method="post">
+            <table>
+                <tbody>
+                    <tr>
+                        <td><label for="fullname">Full Name:</label></td>
+                        <td><input type="text" id="fullname" name="fullname" placeholder="Full name" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="email">Email:</label></td>
+                        <td><input type="email" id="email" name="email" placeholder="Email address" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="password">Password:</label></td>
+                        <td><input type="password" id="password" name="password" maxlength="10" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="age">Age:</label></td>
+                        <td><input type="number" id="age" name="age" min="18" max="60" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="gender">Gender:</label></td>
+                        <td>
+                            <select id="gender" name="gender" required>
+                                <option value="" selected>Select Gender</option>
+                                <option value="male">Male</option>
+                                <option value="female">Female</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="skills">Skills:</label></td>
+                        <td>
+                            <input type="checkbox" id="skill1" name="skills" value="backend">
+                            <label for="skill1">Backend</label><br>
+                            <input type="checkbox" id="skill2" name="skills" value="frontend">
+                            <label for="skill2">Frontend</label><br>
+                            <input type="checkbox" id="skill3" name="skills" value="fullstack">
+                            <label for="skill3">Fullstack</label><br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="dateofbirth">Date of Birth:</label></td>
+                        <td><input type="date" id="dateofbirth" name="dateofbirth" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="tel">Phone Number:</label></td>
+                        <td><input type="tel" id="tel" name="tel" placeholder="Phone number" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="country">Country:</label></td>
+                        <td>
+                            <select id="country" name="country" required>
+                                <option value="" selected>Select Country</option>
+                                <option value="usa">United States</option>
+                                <option value="uk">United Kingdom</option>
+                                <option value="canada">Canada</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><input type="submit" value="Submit"></td>
+                        <td><input type="reset" value="Reset"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </form>
+    </main>
+</body>
+</html>
