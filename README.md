@@ -44,7 +44,7 @@ The goal of this branch is to:
 | # | Topic | Description | Status | Date |
 |---|------|-------------|--------|------|
 | 1 | HTML | Basic page structure, semantic tags | ✅ Done | 09-02-2026 |
-| 2 | HTML | Forms and inputs | ⏳ Pending | 10-02-2026 |
+| 2 | HTML | Forms and inputs | ✅ Done | 11-02-2026 |
 
 _(This table will be updated as I progress.)_
 
