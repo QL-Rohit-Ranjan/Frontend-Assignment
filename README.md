@@ -12,7 +12,7 @@ The goal of this branch is to:
 ## 🧭 Learning Roadmap
 
 - [x] HTML Fundamentals
-- [ ] CSS Basics
+- [x] CSS Basics
 - [ ] Advanced CSS (Flexbox, Grid, Responsive Design)
 - [ ] JavaScript Fundamentals
 - [ ] Modern JavaScript (ES6+)
@@ -29,6 +29,9 @@ The goal of this branch is to:
 ├── html/
 │ ├── day1.html
 │ ├── day2.html
+│ ├── day3/
+│     ├──index.html
+│     ├──style.css
 └── README.md
 ```
 
@@ -45,6 +48,7 @@ The goal of this branch is to:
 |---|------|-------------|--------|------|
 | 1 | HTML | Basic page structure, semantic tags | ✅ Done | 09-02-2026 |
 | 2 | HTML | Forms and inputs | ✅ Done | 11-02-2026 |
+| 3 | CSS | Basic Styling | ✅ Done | 15-02-2026 |
 
 _(This table will be updated as I progress.)_
 

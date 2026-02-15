@@ -1,0 +1,36 @@
+.mt-10 {
+    margin-top: 10px;
+}
+.mb-10 {
+    margin-bottom: 10px;
+}
+#blue-box {
+    border: 1px solid #0000ff; 
+    padding: 0 10px; 
+    background-color: #e6f0ff;
+}
+#blue-box h3 {
+    color: #0000ff;
+}
+#blue-box a {
+    color: #0000ff;
+    text-decoration: none;
+}
+#blue-box button {
+    background-color: #add8e5;
+    padding: 5px;
+    border: 1px solid;
+}
+#blueer-box {
+    border: 1px solid;
+    padding: 0 10px;
+}
+.color-purple {
+    color: #800080;
+}
+.color-green {
+    color: #008000;
+}
+.font-bold {
+    font-weight: bold;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Learning UI</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        #purple-box {
+            border: 1px solid #800084; 
+            padding: 0 10px; 
+            background-color: #f9e6ff;
+        }
+        #purple-box h3 {
+            color: #800084;
+        }
+        #purple-box a {
+            color: #800084;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <section id="top">
+            <div style="border: 1px solid #ffa503; padding: 0 10px; background-color: #fff3e0;">
+                <h3 style="color: #ffa503;">1. Inline CSS Section</h3>
+                <p style="color: #ae373e;">This paragraph is styled using inline CSS.</p>
+                <p><a href="javascript::void(0)" style="color: #ffa503;text-decoration: none;">Inline styled Link</a></p>
+                <p><button style="background-color: #ffa503;border: #ffa503;color: white; padding: 5px;">Inline Button</button></p>
+            </div>
+        </section>
+        <section id="middle" class="mt-10">
+            <div id="purple-box">
+                <h3>2. Internal CSS Section</h3>
+                <p>This paragraph is styled using internal CSS.</p>
+                <p><a href="javascript::void(0)">Internal styled Link</a></p>
+                <p><button>Internal Button</button></p>
+            </div>
+        </section>
+        <section id="last" class="mt-10">
+            <div id="blue-box">
+                <h3>3. External CSS Section</h3>
+                <p>This paragraph is styled using External CSS.</p>
+                <p><a href="javascript::void(0)">External styled Link</a></p>
+                <p><button>External Button</button></p>
+                <div id="blueer-box" class="mb-10">
+                    <p><span class="color-purple">Email:</span> <span class="color-green font-bold">student@email.com</span></p>
+                    <p><span class="color-purple">Role:</span> <span class="color-green font-bold">Css Learner</span></p>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
