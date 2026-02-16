@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS-Lesson-1</title>
+    <link rel="stylesheet" href="../css/css-basics.css">
+
+    <style>
+        .internal-box {
+            border: 1px solid purple;
+            background-color: #f6e6ff;
+            padding: 20px;
+            margin: 20px 0;
+        }
+
+        .internal-box h2 {
+            color: purple;
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        .internal-box p {
+            font-size: 16px;
+        }
+
+        .internal-box a {
+            color: purple;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        .internal-box input {
+            padding: 5px 12px;
+            border: 1px solid gray;
+            background: white;
+            cursor: pointer;
+        }
+
+        /* NO display and NO line-height */
+        .box-heading {
+            background: #d9d9d9;
+            color: black;
+            padding: 3px 10px;
+            border-radius: 4px;
+            margin-right: 10px;
+            font-size: 18px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>CSS Learning UI</h1>
+
+    <!-- Inline CSS -->
+    <div style="border: 1px solid orange; background-color: #fff2e0; padding: 20px; margin: 20px 0;">
+        <h2 style="color: orange; font-size: 28px; font-weight: bold;">
+            <span style="background:#d9d9d9;color:black;padding:3px 10px;border-radius:4px;margin-right:10px;font-size:18px;">
+                1
+            </span>
+            Inline CSS Section
+        </h2>
+
+        <p style="color: brown; font-size: 16px;">
+            This paragraph is styled using inline CSS.
+        </p>
+
+        <p>
+            <a style="color: orange; font-weight: bold; text-decoration: none;" href="https://www.google.com/"
+                target="_blank">
+                Inline Styled Link
+            </a>
+        </p>
+
+        <input style="padding: 6px 14px; background: orange; border: none; color: white; cursor: pointer;" type="button"
+            value="Inline Button">
+    </div>
+
+
+    <!-- Internal CSS -->
+    <div class="internal-box">
+        <h2><span class="box-heading">2</span> Internal CSS Section</h2>
+        <p>This text is styled using internal CSS.</p>
+
+        <p>
+            <a href="https://www.google.com/" target="_blank">
+                Internal Styled Link
+            </a>
+        </p>
+
+        <input type="button" value="Internal Button">
+    </div>
+
+
+    <!-- External CSS -->
+    <div class="external-box">
+        <h2><span class="box-heading">3</span> External CSS Section</h2>
+        <p>This paragraph is styled using external CSS.</p>
+
+        <p>
+            <a href="https://www.google.com/" target="_blank">
+                External Styled Link
+            </a>
+        </p>
+
+        <input type="button" value="External Button">
+
+        <div class="inner-div">
+            <p>
+                <span class="label">Email:</span>
+                <span class="value email">student@email.com</span>
+            </p>
+
+            <p>
+                <span class="label">Role:</span>
+                <span class="value role">CSS Learner</span>
+            </p>
+        </div>
+    </div>
+
+</body>
+
+</html>

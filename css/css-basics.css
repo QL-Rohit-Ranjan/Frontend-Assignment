@@ -1,0 +1,51 @@
+.external-box {
+  border: 1px solid blue;
+  background-color: #e6f0ff;
+  padding: 20px;
+  margin: 20px 0;
+}
+
+.external-box h2 {
+  color: blue;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.external-box p {
+  font-size: 16px;
+}
+
+.external-box a {
+  color: blue;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.external-box input {
+  padding: 6px 14px;
+  background: #bde6f2;
+  border: 1px solid #333;
+  cursor: pointer;
+}
+
+.inner-div {
+  margin-top: 20px;
+  border: 1px solid gray;
+  padding: 15px;
+  background: #eaf3ff;
+}
+
+.label {
+  color: purple;
+  font-weight: bold;
+}
+
+.email {
+  color: green;
+  font-weight: bold;
+}
+
+.role {
+  color: green;
+  font-weight: bold;
+}
