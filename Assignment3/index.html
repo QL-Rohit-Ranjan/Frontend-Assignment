@@ -4,17 +4,78 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <link rel="stylesheet" href="/Assignment3/css/index.css">
+
+    <style>
+
+        .internal-css-div {
+            height: 180px; 
+            border: 2px #800080 solid; 
+            padding: 10px; 
+            background-color:#F3E5F5;
+            margin-top: 10px;
+        }
+
+        .internal-css-button {
+            background-color: #800080;
+            color: white;
+            margin-top: 5px;
+            height: 35px;
+            width: 120px;
+        }
+
+        .internal-css-heading {
+            color: #800080;
+        }
+ 
+    </style>
+
 </head>
 <body>
 
     <div style="height: 180px; border: 2px #F0B429 solid; padding: 10px; background-color:#E6D8C3;">
-        <h1> 1️⃣ Inline CSS Section</h1>
+        
+        <h1 style="color: #F39C12;"> 1️⃣ Inline CSS Section</h1>
         <p>This paragraph is styled using inline CSS.</p>
-        <a href="#">Inline Styled link</a> <br>
+        <a style="color: #F39C12;" href="#">Inline Styled link</a> <br>
         <button style="background-color: #F39C12; color: white; height: 35px; width: 100px; margin-top: 5px;">Inline Button</button>
+
+    </div>
+ 
+    <div class="internal-css-div">
+        
+        <h1 class="internal-css-heading"> 2️⃣ Internal CSS Section</h1>
+        <p>This paragraph is styled using internal CSS.</p>
+        <a href="#">Internal Styled Link</a> <br>
+        <button class="internal-css-button">Internal Button</button>
+
+    </div> 
+
+    <div class="external-css-div">
+
+        <h1 class="external-css-heading"> 3️⃣ External CSS Section</h1>
+        <p>This paragraph is styled using external CSS.</p>
+        <a href="#">External Styled Link</a> <br>
+        <button class="external-css-button">External Button</button>
+
+       <div class="external-css-internal-div">
+
+         <p>
+            <span class="label-email">Email:</span>
+            <span class="value-email">student@email.com</span>
+         </p>
+
+         <p>
+            <span class="label-role">Role:</span>
+            <span class="value-role">Student</span>
+         </p>
+
+       </div>
+
     </div>
 
-
+     
     
 </body>
 </html>

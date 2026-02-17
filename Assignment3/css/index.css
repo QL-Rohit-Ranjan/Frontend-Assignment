@@ -1,0 +1,43 @@
+.external-css-div {
+            height: 280px; 
+            padding: 10px;
+            margin-top: 10px;
+
+            background-color: #E3F2FD; /* Light blue background */
+            border: 2px solid #00008B; /* Dark blue border */
+}
+
+.external-css-button {
+            background-color: #00008B;
+            color: white;
+            margin-top: 5px;
+            height: 35px;
+            width: 120px;
+ }
+
+.external-css-heading {
+            color: #00008B
+ }
+
+
+ .external-css-internal-div {
+       border: 2px solid #00008B;
+       margin-top: 12px;
+       padding: 4px;
+ }
+
+ .label-email {
+      color: purple;
+ }
+
+ .value-email {
+     color: green;
+ }
+
+ .label-role {
+     color: purple;
+ }
+
+ .value-role {
+       color: green;
+ }
